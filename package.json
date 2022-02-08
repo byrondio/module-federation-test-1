@@ -21,5 +21,8 @@
     "build": "craco build",
     "test": "craco test --env=jsdom"
   },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
